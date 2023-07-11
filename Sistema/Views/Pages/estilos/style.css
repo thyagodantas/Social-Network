@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  background-color: #f6f6f9;
+  height: 100%;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100%;
+  background-color: #eaeaf4;
+}
+
+.form-container-login {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 1100px;
+  display: flex;
+}
+
+.logo-chamada-login {
+  width: 40%;
+  position: relative;
+  top: 10vh;
+  left: -20%;
+}
+
+.logo-chamada-registrar {
+  width: 40%;
+  position: relative;
+  top: 23vh;
+  left: -20%;
+}
+
+.logo-chamada-login p {
+  padding-top: 20px;
+  width: inherit;
+  min-width: 400px;
+  font: normal normal normal 15px Montserrat;
+  letter-spacing: 0px;
+  color: #555555;
+}
+
+.logo-chamada-registrar p {
+  padding-top: 20px;
+  width: inherit;
+  min-width: 400px;
+  font: normal normal normal 15px Montserrat;
+  letter-spacing: 0px;
+  color: #555555;
+}
+
+.form-login {
+  background-color: white;
+  width: 60%;
+  padding: 30px;
+  max-width: 500px;
+}
+
+.form-login input[type="text"],
+select,
+.form-login input[type="date"],
+.form-login input[type="password"] {
+  width: 100%;
+  height: 40px;
+  box-shadow: 0px 3px 1px #d3d8e067;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+.form-login input[type="text"],
+select,
+.form-login input[type="date"],
+.form-login input[type="password"] {
+  text-align: left;
+  font: normal normal normal 15px Montserrat;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 0.7;
+}
+
+.form-login input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  color: white;
+  border: #444294;
+  background: #444294 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 0.5px rgb(43, 41, 98);
+  border-radius: 10px;
+  font: normal normal bold 13px Montserrat;
+}
+
+.form-login a {
+  margin-top: 10px;
+  border: 2px solid #444294;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #444294;
+  font: normal normal bold 13px Montserrat;
+}
+
+.form-login #aReg {
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #444294;
+  font: normal normal bold 13px Montserrat;
+}

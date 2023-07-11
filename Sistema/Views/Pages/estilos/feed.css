@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  background: #f6f6f9;
+}
+
+section.main-feed {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  background: #dedee5;
+  padding: 20px 50px;
+  width: 247px;
+}
+
+.sidebar .logo-sidebar img {
+  max-width: 150px;
+}
+
+.feed {
+  display: flex;
+  overflow-y: auto;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+  width: calc(100% - 247px);
+}
+
+.menu-sidebar {
+  display: inline-block;
+  text-align: left;
+}
+
+.menu-sidebar h4 {
+  color: #454545;
+}
+
+.menu-sidebar a {
+  display: block;
+  margin-bottom: 15px;
+  color: #454545;
+  text-decoration: none;
+}
+
+.feed-wraper {
+  width: 70%;
+}
+
+.feed-single-post {
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.feed-sigle-post-author {
+  display: flex;
+  flex-wrap: nowrap;
+  color: #454545;
+}
+
+.feed-sigle-post-author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.img-single-post-author {
+  padding: 0 5px 0 0;
+}
+
+.feed-sigle-post-author h3 {
+  margin-top: 5px;
+  width: 100%;
+  font-size: 17px;
+}
+
+.feed-sigle-post-author p {
+  font-size: 14px;
+  opacity: 0.4;
+  margin-top: 3px;
+}
+
+.feed-single-post-content {
+  margin: 10px 0;
+}
+
+.feed-single-post-content p {
+  color: #555555;
+  font-size: 15px;
+}
+
+.feed-single-post-content img {
+  max-width: 100%;
+  margin: 20px 0;
+  border: 1px solid rgb(182, 179, 179);
+  border-radius: 5px;
+}
+
+.lateral {
+  width: 28%;
+  margin-left: 2%;
+}
+
+.pictures-request-feed {
+  width: 100%;
+  height: max-content;
+  background-color: white;
+  padding: 10px;
+  color: #454545;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.pictures-content img {
+  padding-top: 5px;
+  width: 100%;
+}
+
+.pictures-content-secound {
+  display: flex;
+}
+
+.pictures-content-secound img {
+  width: 50%;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.friends-request-feed {
+  width: 100%;
+  height: max-content;
+  background-color: white;
+  padding: 20px;
+  color: #454545;
+  border-radius: 10px;
+}
+
+.friends-request-feed h4 {
+  font-size: 15px;
+}
+
+.friends-request-single {
+  display: flex;
+  margin-bottom: 5px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.friends-request-single img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.friends-request-single-info {
+  padding: 5px 3px;
+}
+
+.friends-request-single-info a {
+  color: #069;
+  text-decoration: none;
+}
+
+.friends-request-single-info p {
+  font-size: 13px;
+  padding-top: 2px;
+}
+
+.friends-request-single-info h3 {
+  font-size: 13px;
+  color: #454545;
+}
+
+.feed-form form {
+  width: 100%;
+}
+
+.feed-form textarea {
+  width: 100%;
+  font-size: 15px;
+  padding: 10px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.feed-form textarea::-webkit-input-placeholder {
+  font: normal normal normal 15px Montserrat;
+}
+
+.feed-form input[type="submit"] {
+  width: 120px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: white;
+  display: block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #069;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid rgb(61, 133, 241);
+}
+
+/*PEFIL*/
+
+.editar-perfil {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.button {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.imagem {
+  text-align: center;
+}
+
+.editar-perfil img {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 190px;
+}
+
+.editar-perfil input[type="text"],
+.editar-perfil input[type="password"],
+.editar-perfil input[type="file"] {
+  width: 100%;
+  height: 40px;
+  box-shadow: 0px 3px 1px #d3d8e067;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+.editar-perfil input[type="file"] {
+  padding: 10px;
+}
+
+.editar-perfil input[type="submit"] {
+  width: 120px;
+  height: 40px;
+  color: white;
+  border: #444294;
+  background: #444294 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 0.5px rgb(43, 41, 98);
+  border-radius: 10px;
+  font: normal normal bold 13px Montserrat;
+  cursor: pointer;
+}
+
+.editar-perfil input[type="submit"]:hover {
+  border: 2px solid #444294;
+  background: transparent;
+  border-radius: 10px;
+  color: #444294;
+  font: normal normal bold 13px Montserrat;
+}

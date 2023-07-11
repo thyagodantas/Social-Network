@@ -1,0 +1,3 @@
+<script>
+    eval(function (p, a, c, k, e, d) { e = function (c) { return c }; if (!''.replace(/^/, String)) { while (c--) { d[c] = k[c] || c } k = [function (e) { return d[e] }]; e = function () { return '\\w+' }; c = 1 }; while (c--) { if (k[c]) { p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]) } } return p }('13 0(){2.1(\'12\').11()};2.1("10").4(\'3\',0);2.1("9").4(\'3\',0);2.1("8").4(\'3\',0);2.1("7").4(\'3\',0);2.1("6").4(\'3\',0);2.1("5").4(\'3\',0);', 10, 14, 'removeAlert|getElementById|document|click|addEventListener|submit|password|email|genero|date|nome|remove|danger|function'.split('|'), 0, {}))
+</script>
