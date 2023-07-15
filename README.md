@@ -1,5 +1,5 @@
 
-# Social Network | Pixel3 Social
+# Social Network | Talk Social
 
 This social network was created just to test my knowledge of the language, so I bring the open source code to my portfolio. Make good use!
 
@@ -27,6 +27,15 @@ Database:
 <div style="display: inline_block"><br>
   <img height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
 </div>
+
+# Pictures
+
+<img height="600" width="1280" src="https://i.imgur.com/eeBth2b.png" />
+<img height="600" width="1280" src="https://i.imgur.com/tcwDFMY.png" />
+<img height="600" width="1280" src="https://i.imgur.com/9KrON93.png" />
+<img height="600" width="1280" src="https://i.imgur.com/IhfyP4h.png" />
+<img height="600" width="1280" src="https://i.imgur.com/r1uxFPo.png" />
+<img height="600" width="1280" src="https://i.imgur.com/vcQ1T8Z.png" />
 
 ## Autores
 
