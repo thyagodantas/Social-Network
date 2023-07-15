@@ -30,12 +30,12 @@ Database:
 
 # Pictures
 
-<img height="600" width="1280" src="https://i.imgur.com/eeBth2b.png" />
-<img height="600" width="1280" src="https://i.imgur.com/tcwDFMY.png" />
-<img height="600" width="1280" src="https://i.imgur.com/9KrON93.png" />
-<img height="600" width="1280" src="https://i.imgur.com/IhfyP4h.png" />
-<img height="600" width="1280" src="https://i.imgur.com/r1uxFPo.png" />
-<img height="600" width="1280" src="https://i.imgur.com/vcQ1T8Z.png" />
+<img height="658" width="1325" src="https://i.imgur.com/eeBth2b.png" />
+<img height="658" width="1325" src="https://i.imgur.com/tcwDFMY.png" />
+<img height="658" width="1325" src="https://i.imgur.com/9KrON93.png" />
+<img height="658" width="1325" src="https://i.imgur.com/IhfyP4h.png" />
+<img height="658" width="1325" src="https://i.imgur.com/r1uxFPo.png" />
+<img height="658" width="1325" src="https://i.imgur.com/vcQ1T8Z.png" />
 
 ## Autores
 
